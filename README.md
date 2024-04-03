@@ -1,2 +1,2 @@
 # crud-nextjs
-A quality CRUD
+A quality CRUD.
