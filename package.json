@@ -6,6 +6,10 @@
   "scripts": {
     "start:crud": "npx ts-node ./core/crud.ts",
     "dev:crud": "nodemon --ext ts,tsx --exec 'npm run start:crud'",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,10 +25,15 @@
   "homepage": "https://github.com/niltonfernandesj/crud-nextjs#readme",
   "devDependencies": {
     "@types/node": "^20.12.4",
+    "@types/react": "18.2.74",
     "@types/uuid": "^9.0.8",
     "nodemon": "^3.1.0"
   },
   "dependencies": {
+    "next": "^14.1.4",
+    "node": "^18.20.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "^5.4.3",
     "uuid": "^9.0.1"
   }
