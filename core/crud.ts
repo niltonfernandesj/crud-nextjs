@@ -96,8 +96,8 @@ function clearDB(): void {
 }
 
 // [SIMULATION]
-clearDB();
-create("Primeira TODO");
-const secondTodoId = create("Segunda TODO").id;
-update(secondTodoId, { content: "Segunda TODO alterada.", done: true });
-deleteById(secondTodoId);
+// clearDB();
+// create("Primeira TODO");
+// const secondTodoId = create("Segunda TODO").id;
+// update(secondTodoId, { content: "Segunda TODO alterada.", done: true });
+// deleteById(secondTodoId);
